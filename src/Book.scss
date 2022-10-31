@@ -1,0 +1,25 @@
+.book {
+  border: 1px solid black;
+  padding: 0.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+  margin: 1rem;
+  width: 15%;
+  height: 300px;
+  justify-content: space-between;
+}
+img {
+  width: 100px;
+  height: 150px;
+  margin-bottom: 1rem;
+}
+.latest-books {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+button {
+  margin: 0.5rem;
+}
